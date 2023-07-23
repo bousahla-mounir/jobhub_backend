@@ -18,6 +18,3 @@ const JobSchema = new mongoose.Schema({
 }, {timestamps: true}); 
 module.exports = mongoose.model('Job',JobSchema);
 
-// "scripts": {
-//     "start": "nodemon --exec node --experimental-modules index.js"
-//   }
