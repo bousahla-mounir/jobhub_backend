@@ -2,7 +2,8 @@ const mongoose = require("mongoose");  // create instance for a database
 
 const BookMarkSchema = new mongoose.Schema({
     job : {
-        type:mongoose.Schema.Types.ObjectId,
+        type: mongoose.Schema.Types.ObjectId,
+        required:true,
         ref: "Job"
     },
     userId : {type:String, required:true,},
